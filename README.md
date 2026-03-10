@@ -11,17 +11,16 @@ Output: [0,1]
 Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 
 
-Solution: Idea
-
+ Idea😍
 For each number num in the array:
 
-Compute the complement needed to reach the target
-
+*Compute the complement needed to reach.
+          ```
 complement = target - num
+```
+*Check if the complement already exists in a hash map.
 
-Check if the complement already exists in a hash map.
-
-If it exists → return the indices.
+*If it exists → return the indices.
 
 Otherwise store the current number with its index.
 
